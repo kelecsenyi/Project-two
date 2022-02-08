@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Project-two</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <a class="logo">Lilla illatszer</a>
+            <ul class="menu">
+                <li><a href="">Főoldal</a></li>
+                <li><a href="">Rólunk</a></li>
+                <li><a href="">Kapcsolat</a></li>
+                <li><a href="">Újdonságok</a></li>
+                <li><a href="">Férfi Parfüm</a></li>
+                <li><a href="">Női Parfüm</a></li>
+                <li><a href="">Ékszer</a></li>
+                <li><a href="">Fiókom</a></li>
+                <li><a href=""><ion-icon name="basket-outline"></ion-icon></a></li>
+            </ul>
+            <div class="toggle">
+              <ion-icon name="menu-outline"></ion-icon>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <section class="frst-sec">
+            <div class="content">
+                <h2>Válasszon minőségi parfümjeink közül online.</h2>
+                <input type="text" placeholder="Keresés">
+                <button>Vásároljon most</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+      
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+      let toggle = document.querySelector('.toggle');
+      let menu = document.querySelector('nav');
+        toggle.onclick = function(){
+            menu.classList.toggle('active');
+        }
+  </script>
+  </body>
+</html>
