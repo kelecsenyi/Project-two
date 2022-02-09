@@ -18,7 +18,7 @@ nav{
     padding: 20px 25px;
     max-width: 1270px;
     height: 70px;
-    margin: 0 auto;
+    margin: .9rem auto;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -196,6 +196,68 @@ nav{
         margin-top: 80px;
         min-height: 490px;
         border-radius: 0px 0px 30px 30px;
+    }
+}
+
+.scnd-sec{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 1300px;
+}
+
+.scnd-sec .item{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-basis: 50%;
+    color:#8224E3;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+.scnd-sec .item .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00000024;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 1rem 0 0;
+ }
+
+ .scnd-sec .item .icon ion-icon{
+    font-size: 2rem;
+ }
+
+.scnd-sec .item h3{
+
+    font-size: 1.2rem;
+    font-weight: 500;
+ 
+ }
+
+.scnd-sec .item h4{
+    font-size: .9rem;
+    font-weight: 400;
+    color: #808285;
+ }
+
+ @media (max-width:900px){
+    
+    .scnd-sec .item{
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        display: flex;
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .scnd-sec .item:last-child{
+        margin-top: 20px;
     }
 }
 
