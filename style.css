@@ -496,6 +496,7 @@ img {
 }
 
 .lst-sec .container .col{
+    margin: 0 10px;
     display: flex;
     flex-flow: column;
     flex-basis: 30%;
@@ -507,6 +508,12 @@ img {
 @media (max-width:760px){
     .lst-sec .container .col{
         flex-basis: 50%;
+        margin: 0px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .lst-sec .container{
+        flex-flow: row wrap;
     }
 }
 
@@ -577,13 +584,10 @@ footer{
 .Footer{
     font-weight: 300;
     max-width: 1270px;
-    height: 30px;
     margin: 0 auto;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
-
-
 /*FOOTER END*/
