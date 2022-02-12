@@ -517,6 +517,12 @@ img {
     }
 }
 
+@media (max-width:560px){
+    .lst-sec .container .col{
+        flex-basis: 100%;
+    }
+}
+
 .lst-sec .container .col p{
     margin: 5px 0;
     color: #808285;
