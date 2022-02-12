@@ -504,6 +504,12 @@ img {
     font-weight: 300;
 }
 
+@media (max-width:760px){
+    .lst-sec .container .col{
+        flex-basis: 50%;
+    }
+}
+
 .lst-sec .container .col p{
     margin: 5px 0;
     color: #808285;
@@ -527,18 +533,57 @@ img {
     flex-flow: column;
  }
 
+ .lst-sec .container .col img{
+    max-width: 180px;
+    max-height: 150px;
+    margin: 0 5px;
+ }
+
+ .lst-sec .container .col .icon .icons{
+    margin-top: 1rem;
+}
+
+.lst-sec .container .col .icon .icons span{
+    display: inline-block;
+    text-align: center;
+    background: #00000024;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.lst-sec .container .col .icon .icons span:hover{
+    background: #8224E3;
+    color: white;
+}
+
+.lst-sec .container .col .icon .icons span ion-icon{
+    font-size: 1rem;
+    margin-top: 12px;
+}
 
 /*MAIN END*/
 
 /*FOOTER*/
 footer{
-    max-width: 100vw;
     background-color: #F9F9F9;
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
-    margin-top: 20px auto;
     border-top: 1px solid rgba(0, 0, 0, .2);
+    width: 100%;
+    padding: 1rem;
 }
+
+.Footer{
+    font-weight: 300;
+    max-width: 1270px;
+    height: 30px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 
 /*FOOTER END*/
